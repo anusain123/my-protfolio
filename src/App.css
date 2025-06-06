@@ -1,0 +1,9 @@
+/* index.css or App.css */
+html {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body {
+    @apply bg-white text-blue-600 dark:bg-blue-900 dark:text-white;
+  }
+  

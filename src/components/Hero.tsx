@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="basis-1/2 space-y-6 text-center md:text-left">
       <p className="text-base sm:text-lg text-indigo-600 font-medium">Hello, I'm</p>
   
-  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 dark:text-white mt-4">Anu Rajliwal</h1>
+  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 dark:text-white mt-4">Anu Sain</h1>
 
   <h2 className="text-xl sm:text-2xl md:text-3xl text-slate-600 dark:text-slate-300 font-semibold mt-3">Front-End Developer</h2>
   <p className="text-slate-600 dark:text-slate-400 text-base sm:text-lg max-w-xl mx-auto md:mx-0 flex items-center justify-center md:justify-start mt-4"> <MapPin className="mr-2 h-4 w-4 text-slate-400" />Abohar, India</p>
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="relative w-72 h-72 flex items-center justify-center">
           <div className="absolute inset-0 rounded-full border-4 border-indigo-400 z-0 animate-spin-slow"></div>
           <div className="relative z-10 bg-white p-8 rounded-full shadow-2xl w-60 h-60 flex flex-col justify-center items-center">
-            <h1 className="text-4xl font-extrabold text-indigo-600 leading-snug">AR</h1>
+            <h1 className="text-4xl font-extrabold text-indigo-600 leading-snug">AS</h1>
           </div>
         </div>
       </div>

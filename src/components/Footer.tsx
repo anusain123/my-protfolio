@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-[#0f172a] text-gray-400 py-5 px-4 mt-20">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
         <div className="text-center md:text-left">
-          <p className="font-semibold text-white">© 2025 Anu Rajlliwal</p>
+          <p className="font-semibold text-white">© 2025 Anu sain</p>
           <p className="text-sm">Built with React + Tailwind + TypeScript</p>
         </div>
         <div className="flex items-center gap-6">

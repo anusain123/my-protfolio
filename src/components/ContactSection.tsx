@@ -1,18 +1,28 @@
 import React from "react";
-import {FaEnvelope,FaPhone,FaMapMarkerAlt,FaGithub,FaLinkedin,FaDiscord,FaPaperPlane,} from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaPhone,
+  FaMapMarkerAlt,
+  FaGithub,
+  FaLinkedin,
+  FaDiscord, 
+  FaPaperPlane,
+} from "react-icons/fa";
 
-const ContactSection = () => {
+const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="bg-[#1e293b] text-white py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-center">Get In Touch</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-center">
+          Get In Touch
+        </h2>
         <p className="text-center text-gray-400 mb-14 max-w-2xl mx-auto">
           Have a project in mind or want to discuss potential opportunities?
           I'd love to hear from you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 items-start">
-          <div >
+          <div>
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
             <div className="space-y-5">
               <div className="flex items-center gap-4">
@@ -46,13 +56,26 @@ const ContactSection = () => {
 
             <h3 className="text-2xl font-semibold mt-10 mb-4">Connect With Me</h3>
             <div className="flex gap-4">
-              <a href="https://github.com/anusain123/" className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition">
+              <a
+                href="https://github.com/anusain123/"
+                className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/anu-sain-26b42931b/" className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition">
+              <a
+                href="https://www.linkedin.com/in/anu-sain-26b42931b/"
+                className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin />
               </a>
-              <a href="#" className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition">
+              <a
+                href="#"
+                className="bg-[#334155] p-3 rounded-lg hover:bg-indigo-500 transition"
+              >
                 <FaDiscord />
               </a>
             </div>
@@ -77,7 +100,7 @@ const ContactSection = () => {
                 className="w-full p-3 rounded-md bg-[#1e293b] border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
               <textarea
-                rows="5"
+                rows={5}
                 placeholder="Your message..."
                 className="w-full p-3 rounded-md bg-[#1e293b] border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               ></textarea>
@@ -95,4 +118,5 @@ const ContactSection = () => {
     </section>
   );
 };
+
 export default ContactSection;
